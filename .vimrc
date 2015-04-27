@@ -62,3 +62,7 @@ if has('syntax')
   augroup END
   call ZenkakuSpace()
 endif
+
+"キーマップ
+"escをcontrol+jに置き換える
+imap <C-j> <esc>
