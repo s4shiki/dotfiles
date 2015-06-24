@@ -47,7 +47,7 @@ set clipboard+=autoselect
 
 "タブ、空白、改行の可視化
 set list
-set listchars=tab:>.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
+set listchars=tab:>.,trail:_,eol:$,extends:>,precedes:<,nbsp:%
 
 ""全角スペースをハイライト表示
 function! ZenkakuSpace()
